@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.avh4.mvn.archetype</groupId>
+  <artifactId>java-1.6-archetype</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>java-1.6-archetype</name>
+  <description>The maven main core project description</description>
+  <url>https://github.com/avh4/java-1.6-archetype</url>
+  <licenses>
+    <license>
+      <name>The GNU General Public License v3.0</name>
+      <url>http://www.gnu.org/copyleft/gpl.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:https://github.com/avh4/java-1.6-archetype.git</connection>
+    <developerConnection>scm:git:git@github.com:avh4/java-1.6-archetype.git</developerConnection>
+    <url>https://github.com/avh4/java-1.6-archetype</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>avh4</id>
+      <name>Aaron VonderHaar</name>
+      <email>gruen0aermel@gmail.com</email>
+    </developer>
+  </developers>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>2.0</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>
