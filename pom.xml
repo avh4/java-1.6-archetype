@@ -13,7 +13,7 @@
   <packaging>maven-archetype</packaging>
 
   <name>java-1.6-archetype</name>
-  <description>The maven main core project description</description>
+  <description>Maven 2 archtype for Java 1.6 projects</description>
   <url>https://github.com/avh4/java-1.6-archetype</url>
   <licenses>
     <license>
