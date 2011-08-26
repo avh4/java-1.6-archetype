@@ -9,7 +9,7 @@
 
   <groupId>net.avh4.mvn.archetype</groupId>
   <artifactId>java-1.6-archetype</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <packaging>maven-archetype</packaging>
 
   <name>java-1.6-archetype</name>
