@@ -31,25 +31,58 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit-dep</artifactId>
-      <version>4.8.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
-      <version>1.8.5</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest-integration</artifactId>
-      <version>1.2.1</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>net.avh4.util</groupId>
       <artifactId>imagecomparison</artifactId>
-      <version>0.0.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jbehave</groupId>
+      <artifactId>jbehave-core</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.hamcrest</groupId>
+        <artifactId>hamcrest-integration</artifactId>
+        <version>1.2.1</version>
+      </dependency>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit-dep</artifactId>
+        <version>4.8.2</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>1.8.5</version>
+      </dependency>
+      <dependency>
+        <groupId>net.avh4.util</groupId>
+        <artifactId>imagecomparison</artifactId>
+        <version>0.0.4-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jbehave</groupId>
+        <artifactId>jbehave-core</artifactId>
+        <version>3.5</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
 </project>
